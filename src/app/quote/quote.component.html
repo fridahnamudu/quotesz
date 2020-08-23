@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="jumbotron">
+  <h1>Quotes</h1>
+  </div>
+ <div class=col-md-4>
+ <app-form (saveQuote)="addQuote($event)"></app-form>
+ </div>
+ <div class = "col-md-6 offset-md-1">
+ 
+   <div *ngFor='let quote of quotes;let i=index'>
+     <li id="{{i}}" appHighlight>{{quote.author}} created on {{quote.timeCreated|timePassed|uppercase}} ago </li>
+     <div  *ngIf="quote.author">
+     <app-quote-details  [quote]='quote' (isDelete)='deleteQuote($event,i)'></app-quote-details>
+     <button class="btn btn-info" (click)='upVote(i)'>upVote:{{quote.upVotes}}</button>
+     <button class="btn btn-info" (click)='downVote(i)'>downVote:{{quote.downVotes}}</button>
+ 
+   </div>
+ </div>
+ </div>
+ 
+ 
+ 
+ <p *ngIf='quotes.length > 3'>This quotes are really interesting!</p>
+ 
+ </div>
+ 

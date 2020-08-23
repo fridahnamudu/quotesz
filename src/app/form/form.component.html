@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <form  #quoteForm='ngForm' (ngSubmit)="addQuote()">
+            <div class="form-group">
+                <label for="quote">Quote</label>
+                <input type="text"  class="form-control" id="quote" [(ngModel)]="newQuote.quote" name="quote" #name="ngModel" required>
+                <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
+
+
+  <!--Testing  to see if we get data-->
+                  display{{newQuote.quote}}
+
+                </div>
+                </div>
+            <div class="form-group">
+           <!--Quote input-->
+                <label for="author">Author</label>
+                <input type="text"  class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
+                <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label for="createdBy">CreatedBy </label>
+                <input type='createdBy' id="createdBy"[(ngModel)]="newQuote.createdBy" name="createdBy" #quote="ngModel" required>
+
+                <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">Add  Quote</button>
+          </form>
+
+      </div>
+  </div>
+
