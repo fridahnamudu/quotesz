@@ -8,7 +8,7 @@ import { Quotesz } from './../quotesz';
 export class QuoteComponent implements OnInit {
   quotes = [
     new Quotesz('Isaac', 'Whoever is happy will make others happy too.', 'Tenina', 9 , 0),
-    new Quotesz('John', 'Life is either a daring adventure or nothing at all.', 'joel', 8 , 9)
+    new Quotesz('John', 'Life is either a daring adventure or nothing at all.', 'Mark', 8 , 9)
   ];
 
 
