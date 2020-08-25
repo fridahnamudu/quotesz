@@ -30,6 +30,7 @@ export class QuoteComponent implements OnInit {
     this.quotes[i].upVotes += 1;
 
   }
+
   downVote(i) {
 this.quotes[i].downVotes -= 1;
   }

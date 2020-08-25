@@ -16,7 +16,7 @@ import { TimePassedPipe } from './time-passed.pipe';
     QuoteComponent,
     QuoteDetailsComponent,
     HighlightsDirective,
-    TimePassedPipe
+    TimePassedPipe,
   ],
   imports: [
     BrowserModule,
