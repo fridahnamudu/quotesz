@@ -1,0 +1,18 @@
+#upvote{
+    background-color:green;
+    border-style: initial;
+    font-size:20px;
+}
+#downvote{
+    background-color: blue;
+    border-style: initial;
+    font-size:20px;
+}
+.jumbotron{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
