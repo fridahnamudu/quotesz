@@ -37,6 +37,6 @@ Reach me on @fridah.namudu@gmail.com
 Feel free to visit the link ()
 ### License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Copyright (c) 2020 @mbagaya
+Copyright (c) 2020 @fridahnamudu
 
 
