@@ -34,7 +34,7 @@ BDD
 - Quotes can be deleted ,upvoted ,downvoted and contain a custom pipe that shows how much time  has passed since submission of the quote.
 ## Contact Information
 Reach me on @fridah.namudu@gmail.com
-Feel free to visit the link ()
+Feel free to visit the link (nifty-davinci-9cf737.netlify.app)
 ### License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Copyright (c) 2020 @fridahnamudu
